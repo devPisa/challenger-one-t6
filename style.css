@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: #bcbcb4;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    background-color: #0c0c04;
+    width: 80%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+.cabecalho{
+    padding: 1rem;
+    width: 45rem;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ .logo-alura{
+    width: 5rem;
+}
+
+.logo-encriptador{
+    width: 8.25rem;
+}
+
+.dev-pisa{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #dd8c47;
+    font-size: 1.5rem;
+    font-weight: 800;
+    transition: color 0.2s;
+}
+
+.verde{
+    color: #84a47c;
+}
+
+.dev-pisa:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+.dev-pisa:hover .laranja {
+    color: #84a47c;
+}
+
+.dev-pisa:hover .verde {
+    color: #dd8c47; 
+}
+
+form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;    
+}
+
+input[type="text"] {
+    padding: 2rem;
+    height: 30rem;
+    width: 20rem;
+    align-items: center;
+    border-radius: .75rem;
+    background-color: #bcbcb4;
+    white-space: pre-wrap;
+    outline: none;
+    text-indent: 1rem;
+}
+
+input[type="text"]::placeholder{
+    text-align: center;
+    white-space: pre-wrap;
+    color: #84847c;
+    font-style: italic;
+}
+
+.input-com-icone {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.input-com-icone .icone-img{
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    right: -16.5rem;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.input-com-icone img {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.input-com-icone h2{
+    color: #84a47c;
+    padding: 1rem 0 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.input-com-icone p{
+    color: #0c0c04;
+    width: 70%;
+}
+.btn-action{
+    display: flex;
+    justify-content: center;
+    padding: 0.25rem;
+}
+.btn-action button {
+    margin: .75rem;
+    padding: .5rem 1.5rem;
+    border: none;
+    border-radius: .5rem;
+    background-color: #84a47c;
+    color: #0c0c04; 
+    cursor: pointer;
+}
+.btn-action button:hover{
+    transform: scale(1.05);
+    transition: .2s;
+    font-weight: 600;
+    background-color: #dd8c47;
+}
+
+.rodape {
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.rodape h3 {
+    margin-bottom: 10px;
+}
+
+.rodape p {
+    margin-bottom: 0.75rem;
+}
+
+.redes-sociais a{
+    margin: .5rem;
+    padding: .5rem;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 0.75rem;
+    color: #84a47c; 
+}
+
+.redes-sociais a:hover {
+    color: #dd8c47;
+    font-size: 1.75rem;
+    transition: .2s;
+}
+
+
+
