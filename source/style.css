@@ -2,8 +2,8 @@
 
 body{
     background-color: #bcbcb4;
+    margin: 2rem;
     width: 100vw;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -13,6 +13,7 @@ body{
 main{
     background-color: #0c0c04;
     width: 80%;
+    height: 100%;
     padding: 1rem;
     display: flex;
     flex-direction: column;
@@ -21,27 +22,26 @@ main{
 }
 
 .cabecalho{
-    padding: 1rem;
-    width: 45rem;
-    height: 100%;
+    padding-bottom: 1rem;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
  .logo-alura{
-    width: 5rem;
+    width: 20%;
 }
 
 .logo-encriptador{
-    width: 8.25rem;
+    width: 20%;
 }
 
 .dev-pisa{
     text-transform: uppercase;
     text-decoration: none;
     color: #dd8c47;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 800;
     transition: color 0.2s;
 }
@@ -63,12 +63,12 @@ main{
     color: #dd8c47; 
 }
 
-form{
-    width: 100%;
+.form{
+
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2.5rem;    
+    gap: 10%;    
 }
 
 input[type="text"] {
